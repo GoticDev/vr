@@ -27,5 +27,10 @@ extension UIButton {
         self.layer.cornerRadius = 8
         self.backgroundColor = UIColor.gray
     }
-    
+}
+
+extension String {
+    public func detailsConsult() -> String {
+        return NSLocalizedString(self, tableName: "DetailsConsult", bundle: .main, value: self, comment: self)
+    }
 }

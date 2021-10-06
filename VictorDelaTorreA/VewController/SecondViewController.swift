@@ -16,7 +16,7 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     let name = "Victor Raul De la Torre Anicama"
     var myData = ["- Datos Principales", "- Skills", "- Educacion", "- Experiencia Laboral", "- Cursos Adicionales", "- Proyectos"]
-    
+    var myDetail = ["datos_principales".detailsConsult(), "skills".detailsConsult(), "educacion".detailsConsult(), "experiencia_laboral".detailsConsult(), "cursos_adicionales".detailsConsult(), "proyectos".detailsConsult()]
   
     override func viewDidLoad() {
         self.view.backgroundColor = .lightGray
@@ -49,7 +49,7 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let vc = storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as? DetailViewController
         vc?.labelTitle = myData[indexPath.row]
-        
+        vc?.detail = myDetail[indexPath.row]
         self.navigationController?.pushViewController(vc!, animated: true)
     }
     

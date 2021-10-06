@@ -18,6 +18,7 @@
 		0120AE0227096B690029E46B /* DemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0120AE0027096B690029E46B /* DemoTableViewCell.swift */; };
 		0120AE0327096B690029E46B /* DemoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0120AE0127096B690029E46B /* DemoTableViewCell.xib */; };
 		0132EA67270D479700769929 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132EA66270D479700769929 /* DetailViewController.swift */; };
+		0132EA6C270D5FA000769929 /* DetailsConsult.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0132EA6E270D5FA000769929 /* DetailsConsult.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		0120AE0027096B690029E46B /* DemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewCell.swift; sourceTree = "<group>"; };
 		0120AE0127096B690029E46B /* DemoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoTableViewCell.xib; sourceTree = "<group>"; };
 		0132EA66270D479700769929 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		0132EA6D270D5FA000769929 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/DetailsConsult.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				0120ADFB270961B30029E46B /* Desings.swift */,
+				0132EA6E270D5FA000769929 /* DetailsConsult.strings */,
 				0120AE0027096B690029E46B /* DemoTableViewCell.swift */,
 				0120AE0127096B690029E46B /* DemoTableViewCell.xib */,
 			);
@@ -165,6 +168,7 @@
 			files = (
 				0120ADF12709359E0029E46B /* LaunchScreen.storyboard in Resources */,
 				0120ADEE2709359E0029E46B /* Assets.xcassets in Resources */,
+				0132EA6C270D5FA000769929 /* DetailsConsult.strings in Resources */,
 				0120AE0327096B690029E46B /* DemoTableViewCell.xib in Resources */,
 				0120ADEC2709359B0029E46B /* Main.storyboard in Resources */,
 			);
@@ -204,6 +208,14 @@
 				0120ADF02709359E0029E46B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0132EA6E270D5FA000769929 /* DetailsConsult.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0132EA6D270D5FA000769929 /* en */,
+			);
+			name = DetailsConsult.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

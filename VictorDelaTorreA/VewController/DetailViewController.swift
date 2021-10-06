@@ -11,19 +11,22 @@ class DetailViewController: UIViewController {
 
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var scrollView: UIScrollView!
-//    var labelTitle: SecondViewController()
+    @IBOutlet weak var labelScroll: UILabel!
+    //    var labelTitle: SecondViewController()
     var labelTitle = ""
+    var detail = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         label.text = labelTitle
+        labelScroll.text = detail
+        
         scrollView.backgroundColor = UIColor.yellow
         
         
         
     }
-    
-
-
 }
+
+
