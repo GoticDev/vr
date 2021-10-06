@@ -133,7 +133,7 @@
         <!--Detail View Controller-->
         <scene sceneID="Kk3-l7-7qh">
             <objects>
-                <viewController id="AR5-Kb-gBp" customClass="DetailViewController" customModule="VictorDelaTorreA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailViewController" id="AR5-Kb-gBp" customClass="DetailViewController" customModule="VictorDelaTorreA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1hJ-XK-x4H">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -162,6 +162,10 @@
                             <constraint firstItem="7bI-lu-aGL" firstAttribute="top" secondItem="SjD-gZ-7vf" secondAttribute="top" constant="30" id="W9a-Ah-qyT"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="7bI-lu-aGL" id="y43-Lx-WAz"/>
+                        <outlet property="scrollView" destination="zmV-qk-XhU" id="6kO-gg-MzW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4cO-dl-mV7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

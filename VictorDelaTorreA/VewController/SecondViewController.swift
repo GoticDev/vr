@@ -15,9 +15,9 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     @IBOutlet weak var tableView: UITableView!
     
     let name = "Victor Raul De la Torre Anicama"
-    let myData = ["- Datos Principales", "- Skills", "- Educacion", "- Experiencia Laboral", "- Cursos Adicionales", "- Proyectos"]
+    var myData = ["- Datos Principales", "- Skills", "- Educacion", "- Experiencia Laboral", "- Cursos Adicionales", "- Proyectos"]
     
-    
+  
     override func viewDidLoad() {
         self.view.backgroundColor = .lightGray
         navigationItem.title = "Acerca de mi"
@@ -44,6 +44,13 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         cell.myCellLabel.text = myData[indexPath.row]
         
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as? DetailViewController
+        vc?.labelTitle = myData[indexPath.row]
+        
+        self.navigationController?.pushViewController(vc!, animated: true)
     }
     
 }
