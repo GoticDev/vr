@@ -148,21 +148,21 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zmV-qk-XhU">
-                                <rect key="frame" x="0.0" y="159" width="414" height="737"/>
+                                <rect key="frame" x="0.0" y="126" width="414" height="770"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="111" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SnS-LG-XQt">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="737"/>
+                                        <rect key="frame" x="20" y="20" width="374" height="730"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="SnS-LG-XQt" firstAttribute="leading" secondItem="bHi-qr-w9j" secondAttribute="leading" id="Khz-Kw-Jwy"/>
-                                    <constraint firstItem="SnS-LG-XQt" firstAttribute="top" secondItem="bHi-qr-w9j" secondAttribute="top" id="kYA-YD-cnv"/>
-                                    <constraint firstItem="bHi-qr-w9j" firstAttribute="trailing" secondItem="SnS-LG-XQt" secondAttribute="trailing" id="wdG-PR-GW0"/>
-                                    <constraint firstItem="bHi-qr-w9j" firstAttribute="bottom" secondItem="SnS-LG-XQt" secondAttribute="bottom" id="zfl-Rk-llV"/>
+                                    <constraint firstItem="SnS-LG-XQt" firstAttribute="top" secondItem="bHi-qr-w9j" secondAttribute="top" constant="20" id="0Ye-zX-EV5"/>
+                                    <constraint firstItem="bHi-qr-w9j" firstAttribute="bottom" secondItem="SnS-LG-XQt" secondAttribute="bottom" constant="20" id="TDD-KQ-Tvd"/>
+                                    <constraint firstItem="SnS-LG-XQt" firstAttribute="leading" secondItem="bHi-qr-w9j" secondAttribute="leading" constant="20" id="WcZ-7N-qrT"/>
+                                    <constraint firstItem="bHi-qr-w9j" firstAttribute="trailing" secondItem="SnS-LG-XQt" secondAttribute="trailing" constant="20" id="uMJ-xN-gtW"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="cro-Fj-qpy"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="bHi-qr-w9j"/>

@@ -10,7 +10,6 @@ import UIKit
 class DemoTableViewCell: UITableViewCell {
     
     @IBOutlet var myCellLabel: UILabel!
-//    @IBOutlet var myCellImage: UIImageView!
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -22,7 +21,6 @@ class DemoTableViewCell: UITableViewCell {
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
     }
     
 }
