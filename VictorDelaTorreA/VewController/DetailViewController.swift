@@ -18,11 +18,12 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.view.backgroundColor = UIColor.lightGray
+        
         label.text = labelTitle
         labelScroll.text = detail
         
-        scrollView.backgroundColor = UIColor.yellow
+        scrollView.backgroundColor = UIColor.gray
         
         
         
