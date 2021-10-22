@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         firstButtonLabel.setTitle("Press here to continue", for: .normal)
         firstButtonLabel.buttonDesing()
         
-        wellcomeLabel.text = "Bievenido, ahora podras conocer un poco mas de mi y sobre mi trabajo como desarrollador iOS."
+        wellcomeLabel.text = "welcome".detailsConsult()
     
     }
     

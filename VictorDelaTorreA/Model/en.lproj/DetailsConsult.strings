@@ -1,11 +1,62 @@
 "datos_principales" = "- Nombre:\n  Victor Raul De la Torre Anicama\n\n- Direccion:\n  Jr. Diego de la Torre 1690 Cercado \n\nTelefono:\n  955 175 367 \n\nCorreo Electronico:\n  vrdelatorrea@gmail.com";
-//"datos_principales" = """
-//Nombre: Victor Raul De la Torre Anicama
-//Direccion:
-//Telefono:
-//Correo Electronico: """;
-"skills" = "Lenguaje de programacion \n Frameworks: \n Tecnologias: \n metologias:";
-"educacion" = "ing industrial";
-"experiencia_laboral" = "1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n2\n2\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n2\n2\n2\n2\n2\n1\n1\n";
-"cursos_adicionales" = "df jfdbvkhdbvj vd";
-"proyectos" = "jndvi njvn jn j nj bj b";
+
+"skills" = "Lenguaje de programacion: Swift \n\nFrameworks: SwiftUI, UIKit, AlamoFire, CoreLocations, UserNotifications \n\nTecnologias: iOS, CocoaPods, REST, Git \n\nMetologias:SCRUM";
+
+"educacion" = "2008 - 2012 | Lima-Perú
+Bachiller en Ingeniería Industrial
+Inca Garcilaso de la Vega
+
+2004 - 2006 | Lima-Perú
+Ingeniería Informática – No concluido
+Pontifícia Universidad Católica del Perú
+";
+
+"experiencia_laboral" = "FREE LANCE iOS | Mayo 2021 – Actualmente
+
+iOS Developer Junior, Lima
+
+Tareas:
+•    Desarrollo de nuevos Features y mantenimiento de Apps
+•    Migración de arquitectura MVC a MVVM
+•    Desarrollo mediante metología SCRUM
+
+REMAX GREEN HOUSE  | 2018 – Actualmente
+
+Manager - Supervisor, Lima
+
+Tareas:
+•    Gestionar las metas del equipo de ventas
+•    Soporte a la cartera de clientes y propriedades del equipo
+•    Capacitar a la fuerza de ventas para captar nuevas oportunidades de negocio
+•    Diseñar y rediseñar las metodologías del sistema de control del equipo de ventas
+
+BANCO DE CRÉDITO DEL PERÚ | 2007 – 2014
+
+Analista de Créditos Hipotecarios, Lima
+
+Tareas:
+•    Análizar y calificar las solicitudes de créditos hipotecarios
+•    Minimizar riesgos y descartar clientes que no sean sujetos de crédito a largo plazo
+•    Evaluar las garantías de los créditos hipotecarios
+";
+
+
+"cursos_adicionales" = "2021 | Lima-Perú
+Desarrollo de apps para iOS con SwiftUI y Swift
+Udemy
+
+2021 | Lima-Perú
+Diseño de apps para iOS con SwiftUI
+Udemy
+
+2021 | Lima-Perú
+Arquitecturas de diseño: MVC, MVVM, Viper
+Curso de Sergio Becerril
+";
+
+"proyectos" = "Puedes ver mis proyectos personales en mi GitHub:
+
+https://github.com/GoticDev
+";
+
+"welcome" = "Bievenido, ahora podras conocer un poco mas de mi y sobre mi trabajo como desarrollador iOS.";
